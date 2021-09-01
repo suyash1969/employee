@@ -1,0 +1,14 @@
+class Employee{  
+    Employee(){
+        System.out.println("hello a");
+}  
+    Employee(int x){  
+    this();  
+    System.out.println(x);  
+    }  
+    }  
+    class TestThis5{  
+    public static void main(String args[]){  
+    Employee a=new Employee(10);  
+    }
+}  
